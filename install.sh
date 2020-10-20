@@ -48,4 +48,3 @@ mkdir -p /data/logs/hack
 chmod -R 775 /data/logs/hack
 cp /lib64/libluajit-5.1.so.2 /lib/libluajit-5.1.so.2
 mkdir /usr/local/nginx/logs/hack/ && chmod 755 /usr/local/nginx/logs/hack/
-cp -rf /usr/local/nginx/conf/wafconf /usr/local/nginx/conf/waf
