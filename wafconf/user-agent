@@ -1,0 +1,4 @@
+(HTTrack|harvest|audit|dirbuster|pangolin|nmap|sqln|-scan|hydra|Parser|libwww|BBBike|sqlmap|w3af|owasp|Nikto|fimap|havij|PycURL|zmeu|BabyKrokodil|netsparker|httperf|bench| SF/)
+select.+(from|limit)
+(?:(union(.*?)select))
+sleep\((\s*)(\d*)(\s*)\)
